@@ -1,0 +1,39 @@
+sprint-1:
+  label: Sprint 1
+  permalink: /sprint-1
+  description: First sprint of the project
+
+sprint-2:
+  label: Sprint 2
+  permalink: /sprint-2
+  description: Second sprint of the project
+
+sprint-3:
+  label: Sprint 3
+  permalink: /sprint-3
+  description: Third sprint of the project
+
+sprint-4:
+  label: Sprint 4
+  permalink: /sprint-4
+  description: Fourth sprint of the project
+
+planning:
+  label: Planning
+  permalink: /planning
+  description: Sprint planning activities
+
+review:
+  label: Review
+  permalink: /review
+  description: Sprint review and retrospective
+
+development:
+  label: Development
+  permalink: /development
+  description: Development activities
+
+testing:
+  label: Testing
+  permalink: /testing
+  description: Testing and quality assurance
