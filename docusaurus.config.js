@@ -110,7 +110,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'http://ua-pei-automotive.atlassian.net',
             label: 'Jira',
             position: 'right',
           },
