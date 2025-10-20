@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmicrosite=globalThis.webpackChunkmicrosite||[]).push([[1903],{1912:i=>{i.exports=JSON.parse('{"blogBasePath":"/pei-automotive-microsite/sprints","blogTitle":"Sprints","authorsListPath":"/pei-automotive-microsite/sprints/authors"}')}}]);

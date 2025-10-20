@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ATNoG.github.io/pei-automotive-microsite/sprints</id>
+    <title>My Site Blog</title>
+    <updated>2024-11-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ATNoG.github.io/pei-automotive-microsite/sprints"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://ATNoG.github.io/pei-automotive-microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sprint 4]]></title>
+        <id>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4</id>
+        <link href="https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4"/>
+        <updated>2024-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sprint Goal]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 1</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 2</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 3</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>]]></content>
+        <author>
+            <name>Your Name</name>
+            <uri>https://github.com/yourusername</uri>
+        </author>
+        <category label="Sprint 4" term="Sprint 4"/>
+        <category label="Testing" term="Testing"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sprint 3]]></title>
+        <id>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3</id>
+        <link href="https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3"/>
+        <updated>2024-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sprint Goal]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 1</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 2</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 3</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>]]></content>
+        <author>
+            <name>Your Name</name>
+            <uri>https://github.com/yourusername</uri>
+        </author>
+        <category label="Sprint 3" term="Sprint 3"/>
+        <category label="Development" term="Development"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sprint 2]]></title>
+        <id>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2</id>
+        <link href="https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2"/>
+        <updated>2024-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sprint Goal]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 1</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 2</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 3</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>]]></content>
+        <author>
+            <name>Your Name</name>
+            <uri>https://github.com/yourusername</uri>
+        </author>
+        <category label="Sprint 2" term="Sprint 2"/>
+        <category label="Development" term="Development"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sprint 1]]></title>
+        <id>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1</id>
+        <link href="https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1"/>
+        <updated>2024-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sprint Goal]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 1</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 2</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 3</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>]]></content>
+        <author>
+            <name>Your Name</name>
+            <uri>https://github.com/yourusername</uri>
+        </author>
+        <category label="Sprint 1" term="Sprint 1"/>
+        <category label="Planning" term="Planning"/>
+    </entry>
+</feed>
