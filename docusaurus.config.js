@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Automotive App',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -91,17 +91,17 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Automotive App',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Automotive App Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'documentationSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/sprints', label: 'Sprints', position: 'left'},
           {
@@ -109,10 +109,15 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'Jira',
+            position: 'right',
+          },
         ],
       },
       footer: {
-        copyright: `Copyright © 2025 My Project, Projeto em Engenharia Informárica.`,
+        copyright: `Copyright © 2025 Automotive App, Projeto em Engenharia Informárica.`,
       },
       prism: {
         theme: prismThemes.github,
