@@ -1,11 +1,29 @@
-your_name:
-  name: Your Name
-  title: Team Role
-  url: https://github.com/yourusername
-  image_url: https://github.com/yourusername.png
+Filipe:
+  name: Filipe Viseu
+  title: Scrum Master
+  url: https://github.com/FilipeNV1
+  image_url: https://github.com/FilipeNV1.png
 
-team_member_2:
-  name: Team Member 2
-  title: Team Role
-  url: https://github.com/username2
-  image_url: https://github.com/username2.png
+Diogo:
+  name: Diogo Nascimento
+  title: Developer
+  url: https://github.com/DCANascimento
+  image_url: https://github.com/DCANascimento.png
+
+Duarte:
+  name: Duarte Branco
+  title: Product Owner
+  url: https://github.com/duartebranco
+  image_url: https://github.com/duartebranco.png
+
+Eduardo:
+  name: Eduardo Romano
+  title: Developer
+  url: https://github.com/EduardoRomano44
+  image_url: https://github.com/EduardoRomano44.png
+
+Samuel:
+  name: Samuel Vinhas
+  title: Developer
+  url: https://github.com/samuelvinhas
+  image_url: https://github.com/samuelvinhas.png
