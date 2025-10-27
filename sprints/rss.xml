@@ -4,7 +4,7 @@
         <title>Automotive App Blog</title>
         <link>https://ATNoG.github.io/pei-automotive-microsite/sprints</link>
         <description>Automotive App Blog</description>
-        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Initiate Final System]]></title>
             <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4</link>
             <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4</guid>
-            <pubDate>Tue, 05 Nov 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Sprint Goal]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
 <p>Initiate the final system adding more features</p>
@@ -40,7 +40,7 @@ As a user, I want the system to work offline so that I can use it without intern
             <title><![CDATA[Final MVP]]></title>
             <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3</link>
             <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3</guid>
-            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Sprint Goal]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
 <p>Integrate backend and frontend, add a use case</p>
@@ -69,7 +69,7 @@ As a user, I want the system to work offline so that I can use it without intern
             <title><![CDATA[Initial MVP]]></title>
             <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2</link>
             <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2</guid>
-            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Sprint Goal]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
 <p>Build a basic MVP with digital twins and map improvements</p>
@@ -104,7 +104,7 @@ Digital twin system setup in progress</p>
             <title><![CDATA[Study and Planning]]></title>
             <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1</link>
             <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1</guid>
-            <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Sprint Goal]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
 <p>Study relevant materials, plan the project roadmap, and design the initial architecture</p>
