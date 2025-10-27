@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Automotive App',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Smarter Roads, Safer Journey',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -96,6 +96,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/sprints', label: 'Sprints', position: 'left'},
+          //{to: '/team', label: 'Team', position: 'left'},
           {
             href: 'https://github.com/ATNoG/pei-automotive',
             label: 'GitHub',
