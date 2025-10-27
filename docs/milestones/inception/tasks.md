@@ -23,19 +23,19 @@ After deviding our work onto three modules, we listed some tasks for each:
 
 This is the core "brain" of the system, where the virtual representation is updated and events are identified.  
 
-1. Define the Digital Twin Data model
-- Design and implement the class/structure for a digital twin. This should hold the current state of a vehicle. (the use of a digital twin network will be the basis for the data provided, explained [here](related_work.md#digital-twins-for-mobility-dt4mob))
-- Create a repository or in-memory store to manage all active digital twin instances.
+1. Receive Data from [Digital Twin Network*](#digital-twins)
+- Develop connectors to subscribe to data streams from the digital twin network API.
+- Implement a listener service to ingest real-time state updates from the relevant vehicle digital twins.
 
-2. Implement State Update Logic
-- Develop a service that takes parsed sensor data and updates the corresponding digital twin's state in real-time.
-- This service will listen to the data from sensors and apply the updates to the correct twin on or storage.
+2. Process the Received Data
+- Create a service to map the [digital twin's*](#digital-twins) state updates to the local event processing model.
+- Implement data correlation to combine multiple twin data points for complex event analysis.
 
 3. Develop Rule-Based Event Detection Engine
-- Create a configurable rules engine to analyze the digital twin's state and identify significant events.
+- Create a configurable rules engine to analyze the [digital twin's*](#digital-twins) state and identify significant events.
 - When an event is triggered, this engine should package it into an event notification object.
 
-This module will be mainly developed[*](#module-development-note) by:
+This module will be mainly developed[**](#module-development-note) by:
 - Duarte Branco
 - Filipe Viseu
 
@@ -51,7 +51,7 @@ This layer is responsible for getting the identified events to the end-user.
 - Create a real-time communication channel between the backend and the Android Auto app to push event notifications instantly.
 - Define the API payload for sending events to the UI.
 
-This module will be mainly developed[*](#module-development-note) by:
+This module will be mainly developed[**](#module-development-note) by:
 - Eduardo Romano
 
 ### Automotive App UI
@@ -65,15 +65,19 @@ This is the user-facing component that displays information and events within th
 2. Design and Develop the "Event Alert" Screen
 - Create a UI template (using Android Auto's Template classes, like PaneTemplate or AlertTemplate) to clearly display event details when a notification is received from the backend.
 
-This module will be mainly developed[*](#module-development-note) by:
+This module will be mainly developed[**](#module-development-note) by:
 - Diogo Nascimento
 - Samuel Vinhas
 
 ---
 
+<a id="digital-twins"></a>
+
+*The use of a digital twin network will be the basis for the data provided, explained [here](related_work.md#digital-twins-for-mobility-dt4mob)
+
 <a id="module-development-note"></a>
 
-*Altough each module was assign to specific members, other team members may help develop some parts of diferent modules
+**Altough each module was assign to specific members, other team members may help develop some parts of diferent modules
 
 ---
 
