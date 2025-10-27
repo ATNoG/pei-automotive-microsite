@@ -36,6 +36,8 @@ Trought the development of this project, we expect to create:
 - A **detailed system architecture** for data collection, analysis, and event generation.  
 - A **functional automotive application** capable of assisting drivers with emergency alerts and traffic awareness.  
 
+We need to integrate the data from multiple sources and provide a clean and responsive interface for vehicle use, so we can develop a functional automotive application capable of assisting drivers with emergency alerts and trafic awareness.
+
 ---
 
 **Tutors:**  
