@@ -4,30 +4,137 @@
         <title>Automotive App Blog</title>
         <link>https://ATNoG.github.io/pei-automotive-microsite/sprints</link>
         <description>Automotive App Blog</description>
-        <lastBuildDate>Tue, 15 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Sprint Template]]></title>
-            <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-template</link>
-            <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-template</guid>
+            <title><![CDATA[Initiate Final System]]></title>
+            <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4</link>
+            <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-4</guid>
+            <pubDate>Tue, 05 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sprint Goal]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<p>Initiate the final system adding more features</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<ol>
+<li class="">Add more features to the MVP</li>
+<li class="">Make a cache system so the system works offline</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<p>As a user, I want to have more features in the system so that it is more useful
+As a user, I want the system to work offline so that I can use it without internet connection</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add more features to the MVP</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Make a cache system so the system works offline</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<p>Not started</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-4#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>]]></content:encoded>
+            <category>Sprint 4</category>
+            <category>Development</category>
+        </item>
+        <item>
+            <title><![CDATA[Final MVP]]></title>
+            <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3</link>
+            <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-3</guid>
+            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sprint Goal]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<p>Integrate backend and frontend, add a use case</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<ol>
+<li class="">Connect backend to frontend</li>
+<li class="">Add a new use case to MVP</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<p>As a stakeholder, I want to see a real use case in the MVP so I can evaluate its effectiveness</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Integrate backend and frontend</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add a use case to MVP</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test the complete flow</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<p>Not started</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<p>Communication between backend and frontend</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>]]></content:encoded>
+            <category>Sprint 3</category>
+            <category>development(mvp)</category>
+        </item>
+        <item>
+            <title><![CDATA[Initial MVP]]></title>
+            <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2</link>
+            <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-2</guid>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sprint Goal]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<p>Build a basic MVP with digital twins and map improvements</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<ol>
+<li class="">Add APIs for map features (speed limits, etc.)</li>
+<li class="">Create a simple digital twin system using Kubernetes, Ditto, and Hono</li>
+<li class="">Integrate real sensor data</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<p>As a user I want to see speed limits on the map so I know where to slow down
+As a user I want the system to be quick and responsive so I have a good experience</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Improve map with API's</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Build digital twin system</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Integrate real sensor data</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<p>Map API design started
+Digital twin system setup in progress</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<ol>
+<li class="">API integration complexity</li>
+<li class="">Sensor data reliability</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>]]></content:encoded>
+            <category>Sprint 2</category>
+            <category>Development</category>
+        </item>
+        <item>
+            <title><![CDATA[Study and Planning]]></title>
+            <link>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1</link>
+            <guid>https://ATNoG.github.io/pei-automotive-microsite/sprints/sprint-1</guid>
             <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Sprint Goal]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-goal">Sprint Goal<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-goal" class="hash-link" aria-label="Direct link to Sprint Goal" title="Direct link to Sprint Goal" translate="no">​</a></h2>
+<p>Study relevant materials, plan the project roadmap, and design the initial architecture</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-planning">Sprint Planning<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-planning" class="hash-link" aria-label="Direct link to Sprint Planning" title="Direct link to Sprint Planning" translate="no">​</a></h2>
+<ol>
+<li class="">Study Ditto and Hono architectures</li>
+<li class="">Make the initial version of our system architecture</li>
+<li class="">Plan the project roadmap for the next sprints</li>
+<li class="">Prototype a simple UI in Android Studio</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-stories">User Stories<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#user-stories" class="hash-link" aria-label="Direct link to User Stories" title="Direct link to User Stories" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 1</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 2</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Task 3</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Study the architecture of ditto and hono</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Make our system architecture</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Study android studio and make a simple UI</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Plan the project roadmap for the next sprints</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-retrospective">Sprint Retrospective<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-template#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>]]></content:encoded>
-            <category>sprint-template</category>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
+<p>Most research tasks completed
+System architecture draft in progress</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
+<ol>
+<li class="">Understanding integration points between Ditto and Hono</li>
+<li class="">Limited experience with Android Studio</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-1#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<p>Achieved a good understanding of core technologies
+Roadmap and UI prototype completed</p>]]></content:encoded>
+            <category>Sprint 1</category>
             <category>Planning</category>
         </item>
     </channel>

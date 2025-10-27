@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmicrosite=globalThis.webpackChunkmicrosite||[]).push([[710],{5513:t=>{t.exports=JSON.parse('{"title":"All Sprints","items":[{"title":"Sprint Template","permalink":"/pei-automotive-microsite/sprints/sprint-template","unlisted":false,"date":"2024-10-15T00:00:00.000Z"}]}')}}]);

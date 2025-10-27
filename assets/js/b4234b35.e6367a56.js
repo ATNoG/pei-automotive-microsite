@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmicrosite=globalThis.webpackChunkmicrosite||[]).push([[934],{1159:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/pei-automotive-microsite/sprints","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Project sprints and development progress","blogTitle":"Sprints"}}')}}]);
