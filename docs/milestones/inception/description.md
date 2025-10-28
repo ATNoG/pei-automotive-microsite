@@ -19,13 +19,6 @@ Across Aveiro, ITAv operates a large array of sensors that continuously capture 
 
 Realizing this application would turn fragmented feeds into actionable, vehicle‑ready intelligence, allowing drivers to be **alerted in real time**, **assisted by coordination mechanisms** and **helped by the data’s full potential**.
 
-Although ITAv has deployed a large array of sensors capable of providing valuable information, **there is currently no unified platform or application** that:
-- Collects, analyzes, and distributes this data **directly to vehicles or drivers**;  
-- Provides **real-time alerts** about emergency situations such as accidents, severe weather, or traffic congestion;  
-- Enables **coordination between vehicles**, such as assisted lane changes or braking synchronization.
-
-As a result, the existing sensor infrastructure remains **underutilized**, and its potential to **enhance road safety and traffic awareness** is not being fully realized.
-
 ## Goals
 Develop an automotive application that leverages ITAv’s sensor network to improve safety and awareness by:
 - Identifying and notifying users of emergency events in real time;
