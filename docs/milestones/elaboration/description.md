@@ -24,3 +24,16 @@ By the end of Elaboration, the project should have:
 - Initial prototypes demonstrating feasibility of core features
 
 ---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)
