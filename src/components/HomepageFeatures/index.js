@@ -37,12 +37,14 @@ const FeatureList = [
 function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={image} className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className={styles.featureCard}>
+        <div className="text--center">
+          <img src={image} className={styles.featureSvg} alt={title} />
+        </div>
+        <div className="text--center">
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );

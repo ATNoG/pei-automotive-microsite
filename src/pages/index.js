@@ -12,17 +12,29 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/calendar/overview">
-            Project Calendar
-          </Link>
+        <div className={styles.heroContent}>
+          <Heading as="h1" className={styles.heroTitle}>
+            {siteConfig.title}
+          </Heading>
+          <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+          <p className={styles.heroDescription}>
+            Leveraging IoT sensor networks to provide real-time intelligent transportation alerts for safer, smarter driving
+          </p>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/calendar/overview">
+              📅 Explore Project
+            </Link>
+            <Link
+              className="button button--lg"
+              to="/docs/milestones/inception/description"
+              style={{backgroundColor: 'rgba(255, 255, 255, 0.2)', color: 'white', border: '2px solid rgba(255, 255, 255, 0.5)'}}>
+              📖 Learn More
+            </Link>
+          </div>
         </div>
+        <div className={styles.heroIllustration}></div>
       </div>
     </header>
   );
@@ -37,7 +49,35 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <StatsSection />
       </main>
     </Layout>
+  );
+}
+
+function StatsSection() {
+  return (
+    <section className={styles.statsSection}>
+      <div className="container">
+        <div className={styles.statsGrid}>
+          <div className={styles.statCard}>
+            <div className={styles.statNumber}>5</div>
+            <div className={styles.statLabel}>Team Members</div>
+          </div>
+          <div className={styles.statCard}>
+            <div className={styles.statNumber}>4</div>
+            <div className={styles.statLabel}>Development Sprints</div>
+          </div>
+          <div className={styles.statCard}>
+            <div className={styles.statNumber}>3</div>
+            <div className={styles.statLabel}>Key Milestones</div>
+          </div>
+          <div className={styles.statCard}>
+            <div className={styles.statNumber}>∞</div>
+            <div className={styles.statLabel}>Safety Impact</div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
