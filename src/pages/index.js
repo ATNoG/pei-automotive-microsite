@@ -13,6 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className={styles.heroContent}>
+          <div className={styles.heroLogo}></div>
           <Heading as="h1" className={styles.heroTitle}>
             {siteConfig.title}
           </Heading>
@@ -24,13 +25,12 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/calendar/overview">
-              📅 Explore Project
+              📅 Explore Project's Calender
             </Link>
             <Link
-              className="button button--lg"
-              to="/docs/milestones/inception/description"
-              style={{backgroundColor: 'rgba(255, 255, 255, 0.2)', color: 'white', border: '2px solid rgba(255, 255, 255, 0.5)'}}>
-              📖 Learn More
+              className="button button--secondary button--lg"
+              to="/docs/category/milestones">
+              📖 See Docs
             </Link>
           </div>
         </div>

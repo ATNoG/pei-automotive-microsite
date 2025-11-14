@@ -110,7 +110,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © 2025 Automotive App, Projeto em Engenharia Informárica.`,
+        copyright: `Copyright © 2025 Automotive App, Project in Informatics Engineering.`,
       },
       prism: {
         theme: prismThemes.github,
