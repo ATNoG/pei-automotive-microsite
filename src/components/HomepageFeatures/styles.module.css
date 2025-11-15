@@ -34,13 +34,13 @@
 }
 
 .featureCard {
-  background: linear-gradient(135deg, #fafbfc 0%, #ffffff 100%);
+  background: var(--ifm-card-background-color);
   border-radius: 1rem;
   padding: 2rem 1.5rem;
   height: 100%;
-  border: 1px solid rgba(7, 80, 137, 0.08);
+  border: 1px solid var(--ifm-card-border-color);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   position: relative;
   overflow: hidden;
   animation: fadeInUp 0.6s ease-out backwards;
@@ -72,9 +72,8 @@
 
 .featureCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(7, 80, 137, 0.2), inset 0 1px 0 rgba(255, 255, 255, 1);
-  border-color: rgba(7, 80, 137, 0.15);
-  background: linear-gradient(135deg, #ffffff 0%, #fafbfc 100%);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary-light);
 }
 
 .featureSvg {
@@ -82,7 +81,7 @@
   width: 120px;
   margin: 1rem auto;
   transition: transform 0.3s ease;
-  background: rgba(7, 80, 137, 0.05);
+  background: rgba(var(--ifm-color-primary-rgb), 0.05);
   padding: 1rem;
   border-radius: 0.75rem;
 }
@@ -92,14 +91,13 @@
 }
 
 .featureTitle {
-  color: #075089;
   font-weight: 700;
   margin: 1rem 0 0.5rem 0;
   font-size: 1.25rem;
 }
 
 .featureDescription {
-  color: #4b5563;
+  color: var(--ifm-text-color-base);
   line-height: 1.6;
   font-size: 0.95rem;
 }
@@ -135,4 +133,3 @@
     transform: translateY(0);
   }
 }
-

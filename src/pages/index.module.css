@@ -121,7 +121,7 @@
 
 .statsSection {
   padding: 5rem 2rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background-color: var(--ifm-background-color);
   position: relative;
   overflow: hidden;
   animation: fadeInUp 0.8s ease-out 0.4s backwards;
@@ -151,34 +151,31 @@
 }
 
 .statCard {
-  background: white;
+  background: var(--ifm-card-background-color);
   border-radius: 1.25rem;
   padding: 2.5rem 1.5rem;
   text-align: center;
-  border: 1px solid rgba(7, 80, 137, 0.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--ifm-card-border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
 .statCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 32px rgba(7, 80, 137, 0.1);
-  border-color: rgba(7, 80, 137, 0.2);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary-light);
 }
 
 .statNumber {
   font-size: 3.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #075089 0%, #0fbcf9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--ifm-color-primary);
   margin-bottom: 0.5rem;
 }
 
 .statLabel {
   font-size: 1rem;
-  color: #4b5563;
+  color: var(--ifm-text-color-base);
   font-weight: 600;
 }
 

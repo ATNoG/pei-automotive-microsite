@@ -1,0 +1,17 @@
+john_doe:
+  name: John Doe
+  title: Lead Developer
+  url: https://github.com/johndoe
+  image_url: https://github.com/ghost.png
+
+jane_smith:
+  name: Jane Smith
+  title: Frontend Engineer
+  url: https://github.com/janesmith
+  image_url: https://github.com/ghost.png
+
+alex_johnson:
+  name: Alex Johnson
+  title: UX/UI Designer
+  url: https://dribbble.com/alexjohnson
+  image_url: https://github.com/ghost.png

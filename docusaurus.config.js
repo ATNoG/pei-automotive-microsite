@@ -74,6 +74,30 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'team',
+        path: 'team',
+        routeBasePath: 'team',
+        blogTitle: 'Our Team',
+        blogDescription: 'Meet the team behind the Automotive App',
+        blogSidebarTitle: 'Team Members',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 'ALL',
+        showReadingTime: false,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'ignore',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -96,7 +120,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/sprints', label: 'Sprints', position: 'left'},
-          //{to: '/team', label: 'Team', position: 'left'},
+          {to: '/team', label: 'Team', position: 'left'},
           {
             href: 'https://github.com/ATNoG/pei-automotive',
             label: 'GitHub',
