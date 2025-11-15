@@ -1,20 +1,20 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Requirements
 
 ## Functional Requirements
 
-**FR1.** The user should be able to navigate to a chosen destination using turn-by-turn directions.  
-**FR2.** The user should receive alerts when rain or adverse weather conditions are detected nearby.  
-**FR3.** The user should be notified about roadworks or temporary obstacles within a 1.5 km radius.  
-**FR4.** The user should be alerted if there are accidents or immobilized vehicles in the vicinity.  
-**FR5.** The user should be informed about traffic congestion in their area.  
-**FR6.** The user should receive speed alerts when entering zones with different speed limits.  
-**FR7.** The user should be notified when overtaking is detected and receive safety suggestions.  
-**FR8.** The user should be warned about pavement conditions (ice, wet, or slippery surfaces) detected by soil moisture and temperature sensors.  
-**FR9.** The user should be alerted about emergency vehicles within a 1 km radius to help coordinate priority passage.  
+**FR1.** The user should be able to navigate to a chosen destination using turn-by-turn directions.
+**FR2.** The user should receive alerts when rain or adverse weather conditions are detected nearby.
+**FR3.** The user should be notified about roadworks or temporary obstacles within a 1.5 km radius.
+**FR4.** The user should be alerted if there are accidents or immobilized vehicles in the vicinity.
+**FR5.** The user should be informed about traffic congestion in their area.
+**FR6.** The user should receive speed alerts when entering zones with different speed limits.
+**FR7.** The user should be notified when overtaking is detected and receive safety suggestions.
+**FR8.** The user should be warned about pavement conditions (ice, wet, or slippery surfaces) detected by soil moisture and temperature sensors.
+**FR9.** The user should be alerted about emergency vehicles within a 1 km radius to help coordinate priority passage.
 **FR10.** The user should be able to view a history of conditions and statistics for later analysis, including traffic patterns and safety recommendations.
 
 | #   | Requirement                                                                                  | Source         |
@@ -43,9 +43,9 @@ sidebar_position: 3
 
 ---
 
-**Tutors:**  
-- Rafael Direito (rafael.neves.direito@ua.pt)  
-- Diogo Gomes (dgomes@ua.pt)  
+**Tutors:**
+- Rafael Direito (rafael.neves.direito@ua.pt)
+- Diogo Gomes (dgomes@ua.pt)
 
 **Group:**
 - Diogo Nascimento (dca.nascimento5@ua.pt)
