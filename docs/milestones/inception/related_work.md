@@ -76,20 +76,6 @@ Using DT4MOB as our data backbone ensures that our application operates on relia
 
 Learn more about DT4MOB [here](https://www.it.pt/Projects/Index/4934)
 
-## Comparison with Our Solution
-
-Our automotive safety application builds upon the foundation established by Waze and TomTom while focusing specifically on **real-time hazard detection and driver safety alerts**. Key differentiators include:
-
-| Feature | Waze | TomTom | Our Solution |
-|---------|------|--------|--------------|
-| Real-time Navigation | ✓ | ✓ | ✓ |
-| Traffic Updates | ✓ | ✓ | ✓ |
-| Weather Alerts | ✓ | ✓ | ✓ |
-| Hazard Detection | Community-based | Limited | IoT sensor-based |
-| Emergency Vehicle Alerts | ✗ | ✗ | ✓ |
-| Overtaking Detection | ✗ | ✗ | ✓ |
-| Highway Safe Entry/Exit | ✗ | ✗ | ✓ |
-
 ---
 
 **Tutors:**  

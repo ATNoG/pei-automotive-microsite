@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # Use Cases
 
+## Context
+
+This section outlines the primary use cases of our system, detailing how drivers interact with the system to enhance their driving experience and safety.
+
 ## UC1. Create a Safe Route
 
 **Description:**  
