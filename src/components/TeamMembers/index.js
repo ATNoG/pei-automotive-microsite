@@ -15,7 +15,7 @@ const TeamMembers1 = [
   {
     name: 'Eduardo Romano',
     image: '/pei-automotive-microsite/team/eduardo.jpeg',
-    github: 'https://dribbble.com/EduardoRomano44',
+    github: 'https://github.com/EduardoRomano44',
   },
 ];
 
