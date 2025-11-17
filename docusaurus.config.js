@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Automotive App',
+  title: 'LookAhead',
   tagline: 'Smarter Roads, Safer Journey',
   favicon: 'img/favicon.ico',
 
@@ -82,7 +82,7 @@ const config = {
         path: 'team',
         routeBasePath: 'team',
         blogTitle: 'Our Team',
-        blogDescription: 'Meet the team behind the Automotive App',
+        blogDescription: 'Meet the team behind LookAhead',
         blogSidebarTitle: 'Team Members',
         blogSidebarCount: 'ALL',
         postsPerPage: 'ALL',
@@ -107,9 +107,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Automotive App',
+        title: 'LookAhead',
         logo: {
-          alt: 'Automotive App Logo',
+          alt: 'LookAhead Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -134,7 +134,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © 2025 Automotive App, Project in Informatics Engineering.`,
+        copyright: `Copyright © 2025 LookAhead, Project in Informatics Engineering.`,
       },
       prism: {
         theme: prismThemes.github,
