@@ -4,20 +4,17 @@ import styles from './styles.module.css';
 const TeamMembers1 = [
   {
     name: 'Diogo Nascimento',
-    role: 'Dev',
-    image: 'https://avatars.githubusercontent.com/u/152305663?v=4',
+    image: '/pei-automotive-microsite/team/diogo.jpeg',
     github: 'https://github.com/DCANascimento',
   },
   {
     name: 'Duarte Branco',
-    role: 'Dev',
-    image: 'https://avatars.githubusercontent.com/u/123300057?v=4',
+    image: '/pei-automotive-microsite/team/duarte.jpeg',
     github: 'https://github.com/duartebranco',
   },
   {
     name: 'Eduardo Romano',
-    role: 'Dev',
-    image: 'https://avatars.githubusercontent.com/u/188698407?v=4',
+    image: '/pei-automotive-microsite/team/eduardo.jpeg',
     github: 'https://dribbble.com/EduardoRomano44',
   },
 ];
@@ -25,14 +22,12 @@ const TeamMembers1 = [
 const TeamMembers2 = [
     {
         name: 'Filipe Viseu',
-        role: 'Dev',
-        image: 'https://avatars.githubusercontent.com/u/144609567?v=4',
+        image: '/pei-automotive-microsite/team/filipe.jpeg',
         github: 'https://github.com/FilipeNV1',
     },
     {
         name: 'Samuel Vinhas',
-        role: 'Dev',
-        image: 'https://avatars.githubusercontent.com/u/153758633?v=4',
+        image: '/pei-automotive-microsite/team/samuel.jpeg',
         github: 'https://github.com/samuelvinhas',
     },
 ];
