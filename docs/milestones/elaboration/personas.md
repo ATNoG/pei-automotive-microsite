@@ -4,6 +4,7 @@ sidebar_position: 4
 
 import joao from '@site/static/img/joao.jpg';
 import filipe from '@site/static/img/filipe.jpg';
+import ana from '@site/static/img/ana.png';
 
 # Personas
 
@@ -12,6 +13,7 @@ These are the personas that we considered for our use cases:
 
 1. [João Silva](#joão-silva-daily-driver)
 2. [Filipe Martins](#filipe-martins-beginner-driver)
+3. [Ana Pereira](#ana-pereira-professional-driver)
 
 ---
 
@@ -19,10 +21,10 @@ These are the personas that we considered for our use cases:
 
 <img src={joao} alt="João Silva" width={220} className="persona-img" />
 
-**Name:** João Silva
-**Occupation:** Mechanical Engineer
-**Commute:** Aveiro ↔ Viseu (daily, via A25)
-**Description:**
+- **Name:** João Silva
+- **Occupation:** Mechanical Engineer
+- **Driving Experience:** Extensive experience driving daily in urban and suburban areas.
+- **Description:**
 An experienced driver who values safety and efficiency. Interested in automotive technology, but prefers simple, non-intrusive solutions that enhance driving without distractions.
 
 ---
@@ -60,11 +62,10 @@ An experienced driver who values safety and efficiency. Interested in automotive
 
 <img src={filipe} alt="Filipe Martins" width={220} className="persona-img" />
 
-**Name:** Filipe Martins
-**Occupation:** Student at the University of Aveiro
-**Driving Experience:** Recently licensed driver
-**Typical Route:** Occasionally drives between Aveiro and Viseu on weekends to visit family.
-**Description:**
+- **Name:** Filipe Martins
+- **Occupation:** Student at the University of Aveiro
+- **Driving Experience:** Recently licensed driver
+- **Description:**
 A young and inexperienced driver who is still building confidence behind the wheel. He values simple, intuitive technology that helps him anticipate risks and feel more secure during trips.
 
 ---
@@ -94,6 +95,45 @@ A young and inexperienced driver who is still building confidence behind the whe
 - Receive **audible and visual alerts** for nearby hazards.
 - View **safe driving recommendations** in real time.
 - Get **assistance with specific maneuvers** when needed.
+
+---
+
+## Ana Pereira (Professional Driver)
+
+<img src={ana} alt="Ana Pereira" width={220} className="persona-img" />
+
+- **Name:** Ana Pereira
+- **Occupation:** Professional Driver
+- **Vehicle:** Heavy passenger vehicle (bus)
+- **Description:**
+A professional bus driver working for a public transport company with extensive road experience. Prioritizes predictability, safety, and punctuality, requiring reliable tools that account for heavy vehicle characteristics and weather conditions.
+
+---
+
+### **Motivations**
+- Value predictability, safety, and punctuality.
+- Use navigation apps with more reliable, real-time data.
+- Ensure the safety and stability of the vehicle and passengers.
+
+---
+
+### **Pain Points**
+- Frustrated by inaccurate alerts from existing apps.
+- Apps do not take into account the type of vehicle (heavy passenger vehicle).
+- Alerts fail to account for extreme weather conditions that affect buses.
+
+---
+
+### **Goals**
+- Ensure the safety and stability of the vehicle and passengers by actively anticipating hazards on the road (such as slippery surfaces, strong winds that affect buses or sudden braking).
+
+---
+
+### **Use Cases**
+- Check **road conditions and planned events** (roadworks, lane closures).
+- View **weather forecasts segmented by route section**.
+- Receive **speed recommendations appropriate to road and load conditions**.
+- Get **automatic trip time and incident reports**.
 
 ---
 
