@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ATNoG.github.io/pei-automotive-microsite/sprints</id>
-    <title>LookAhead Blog</title>
+    <title>Automotive App Blog</title>
     <updated>2026-02-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ATNoG.github.io/pei-automotive-microsite/sprints"/>
-    <subtitle>LookAhead Blog</subtitle>
+    <subtitle>Automotive App Blog</subtitle>
     <icon>https://ATNoG.github.io/pei-automotive-microsite/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Initiate Final System]]></title>
