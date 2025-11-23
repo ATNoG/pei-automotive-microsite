@@ -17,7 +17,7 @@ const FeatureList = [
     image: require('@site/static/img/antenna.png').default,
     description: (
       <>
-        LookAhead builds a living digital twin of the road network by merging data from cameras, radars, and weather stations.
+        Automotive App builds a living digital twin of the road network by merging data from cameras, radars, and weather stations.
         Behind every alert lies a network of connected devices working together.
       </>
     ),
@@ -27,7 +27,7 @@ const FeatureList = [
     image: require('@site/static/img/car.png').default,
     description: (
       <>
-        Built for ease of use, LookAhead provides a clear and responsive interface optimized for Android Auto. 
+        Built for ease of use, Automotive App provides a clear and responsive interface optimized for Android Auto. 
         Drivers can receive alerts and view nearby events, all without distraction.
       </>
     ),
