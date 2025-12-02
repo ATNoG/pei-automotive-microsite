@@ -4,76 +4,141 @@ sidebar_position: 8
 
 # Domain Model
 
-![Domain Model Diagram](/img/domainmodel.png)
+![Domain Model Diagram](/img/Domain_model.png)
 
 ## Overview
-
-The domain model represents the core entities and relationships within the road monitoring and event management system. It defines how roads, events, and various event types interact to provide real-time information about road conditions and incidents.
+The domain model represents the comprehensive architecture of the road monitoring, event management, and user navigation system. It defines how users, vehicles, roads, routes, and various event types interact to provide real-time information about road conditions, incidents, and personalized navigation experiences.
 
 ## Key Entities
 
+### User
+Represents a registered user in the system with:
+- **userId**: Unique identifier for the user
+- **username**: User's display name
+- **email**: User's email address
+- **createdAt**: Account creation timestamp
+
+### Vehicle
+Represents a vehicle owned by a user with:
+- **vehicleId**: Unique identifier for the vehicle
+- **userId**: Reference to the vehicle's owner
+
 ### Road
-Represents a road segment in the system with the following attributes:
+Represents a major road in the system with:
 - **roadId**: Unique identifier for the road
+- **name**: Road name
 - **speedLimit**: Maximum speed limit for the road
-- **weatherCondition**: Current weather conditions
-- **trafficDensity**: Current traffic density level
+
+### RoadSegment
+Represents a specific segment of a road with precise coordinates:
+- **roadId**: Reference to the parent road
+- **id**: Unique identifier for the segment
+- **startAt**: Starting latitude coordinate
+- **startLng**: Starting longitude coordinate
+- **endAt**: Ending latitude coordinate
+- **endLng**: Ending longitude coordinate
+
+### Location
+Represents a specific geographic point with:
+- **locationId**: Unique identifier for the location
+- **latitude**: Geographic latitude
+- **longitude**: Geographic longitude
+- **description**: Location description
+
+### Route
+Represents a user-defined navigation route:
+- **userId**: Reference to the route creator
+- **id**: Unique identifier for the route
+- **name**: Route name
+- **createdAt**: Route creation timestamp
+- **isFavorite**: Boolean indicating if route is marked as favorite
+
+### RouteStep
+Represents individual steps within a route:
+- **id**: Unique identifier for the step
+- **roadId**: Reference to the road for this step
+- **stepNumber**: Sequential step number
+- **instruction**: Navigation instruction
+- **startLat**: Starting latitude
+- **startLng**: Starting longitude
+- **endLat**: Ending latitude
+- **endLng**: Ending longitude
+- **distance**: Distance for this step
+- **expectedTime**: Expected time to complete this step
+
+### UserNotificationPreferences
+Represents user preferences for specific event notifications:
+- **id**: Unique identifier for the preference
+- **userId**: Reference to the user
+- **eventType**: Type of event for this preference
+- **enabled**: Boolean indicating if notifications for that event are enabled
 
 ### Event
-Base entity representing an event that occurs on a road. Attributes include:
-- **eventId**: Unique identifier for the event
-- **type**: The type of event (Speeding, Roadworks, Accidents, RoadTraffic, WeatherCondition, PavementCondition)
-- **latitude**: Location latitude
-- **longitude**: Location longitude
-- **date**: When the event occurred
+Base entity representing an event that occurs on the road network. Attributes include:
+- **id**: Unique identifier for the event
+- **type**: The type of event (WeatherEvent, RoadworkEvent, PavementConditionEvent, RoadTrafficEvent, AccidentEvent)
 - **roadId**: Reference to the road where the event occurred
+- **sourceVehicleId**: Reference to the vehicle that was responsible for the event (optional)
+- **time**: When the event occurred
+- **active**: Boolean indicating if the event is currently active
+- **severity**: Event severity level
 
 ### Event Subtypes
 
-#### Speeding
-Represents speeding events with:
-- **eventType**: Event classification
-- **actualSpeed**: The speed that was recorded
-- **speedLimit**: The speed limit being exceeded
-- **duration**: How long the speeding occurred
-- **vehicleId**: Reference to the vehicle involved
-
-#### Roadworks
-Represents road construction/maintenance events with:
-- **eventType**: Event classification
-- **duration**: Estimated duration of roadworks
-
-#### Accidents
-Represents accident events with:
-- **eventType**: Event classification
-- **numberVehicles**: Number of vehicles involved
-
-#### RoadTraffic
-Represents traffic congestion events with:
-- **eventType**: Event classification
-- **numberVehicles**: Number of vehicles affected
-- **duration**: Expected duration of traffic
-
-#### WeatherCondition
+#### WeatherEvent
 Represents weather-related events with:
-- **eventType**: Event classification
-- **weather**: Description of weather condition
+- **eventId**: Reference to the base event
+- **roadId**: Reference to the affected road
+- **weatherType**: Type of weather condition
+- **time**: Event timestamp
 
-#### PavementCondition
+#### RoadworkEvent
+Represents road construction/maintenance events with:
+- **eventId**: Reference to the base event
+- **segmentId**: Reference to the affected road segment
+- **expectedDuration**: Estimated duration of roadworks
+
+#### PavementConditionEvent
 Represents road surface condition events with:
-- **eventType**: Event classification
+- **eventId**: Reference to the base event
+- **segmentId**: Reference to the affected road segment
 - **condition**: Description of pavement condition
 
-### Vehicle
-Represents a vehicle in the system with:
-- **vehicleId**: Unique identifier for the vehicle
+#### RoadTrafficEvent
+Represents traffic congestion events with:
+- **eventId**: Reference to the base event
+- **segmentId**: Reference to the affected road segment
+- **avgSpeed**: Average speed of traffic
+- **vehicleCount**: Number of vehicles in the affected area
+
+#### AccidentEvent
+Represents accident events with:
+- **eventId**: Reference to the base event
+- **locationId**: Reference to the accident location
+- **numberVehicles**: Number of vehicles involved
 
 ## Relationships
 
 The domain model illustrates the following key relationships:
-- A **Road** can have multiple **Events** (1:N relationship)
-- **Event** is the parent class for specialized event types (Speeding, Roadworks, Accidents, RoadTraffic, WeatherCondition, PavementCondition)
-- **Speeding** events reference a specific **Vehicle**
-- **RoadTraffic** can be associated with **PavementCondition**
-- **WeatherCondition** events are linked to roads
-- All events are associated with specific roads through the **roadId** reference
+
+### User-Centric Relationships
+- A **User** can own multiple **Vehicles** (1:N relationship)
+- A **User** can create multiple **Routes** (1:N relationship)
+- A **User** can have multiple **UserNotificationPreferences** (1:N relationship)
+
+### Road Network Structure
+- A **Road** can be divided into multiple **RoadSegments** (1:N relationship)
+- A **Route** consists of multiple **RouteSteps** (1:N relationship)
+- A **RouteStep** references a specific **Road** (N:1 relationship)
+
+### Event System
+- **Event** is the base entity for all event types (WeatherEvent, RoadworkEvent, PavementConditionEvent, RoadTrafficEvent, AccidentEvent)
+- **Events** are associated with **Roads** through the **roadId** reference
+- **RoadworkEvent**, **PavementConditionEvent**, and **RoadTrafficEvent** reference specific **RoadSegments**
+- **AccidentEvent** references a specific **Location**
+- **Events** may optionally reference a **sourceVehicleId** to track which vehicle was responsible for the event
+
+### Cross-Entity Relationships
+- **Vehicles** are associated to **Events** through the sourceVehicleId field
+- **Events** are linked to the road network either through Road references (WeatherEvent) or RoadSegment references (RoadworkEvent, PavementConditionEvent, RoadTrafficEvent)
+ - **Locations** provide precise geographic coordinates for incidents like accidents, while **RoadSegment** provides a designated area for broader events.
