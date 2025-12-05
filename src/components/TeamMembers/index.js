@@ -83,7 +83,7 @@ export default function TeamPage() {
       </div>
 
       <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>Orientors</h2>
+        <h2 className={styles.sectionTitle}>Advisors</h2>
         <div className={styles.cardsGrid}>
           {Orientors.map((orientor, idx) => (
             <PersonCard key={idx} {...orientor} />
