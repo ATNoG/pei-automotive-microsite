@@ -142,3 +142,18 @@ The domain model illustrates the following key relationships:
 - **Vehicles** are associated to **Events** through the sourceVehicleId field
 - **Events** are linked to the road network either through Road references (WeatherEvent) or RoadSegment references (RoadworkEvent, PavementConditionEvent, RoadTrafficEvent)
  - **Locations** provide precise geographic coordinates for incidents like accidents, while **RoadSegment** provides a designated area for broader events.
+
+---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)
