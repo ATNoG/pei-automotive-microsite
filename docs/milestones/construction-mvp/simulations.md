@@ -117,3 +117,18 @@ The `simulations/` directory contains the following tools:
 For the Construction MVP phase, the simulation-first strategy worked incredibly well. It reduced expenses and risks while facilitating quick development and architectural validation. Now that all of the system's core processing logic has been verified and is ready for production, it can be seamlessly integrated with actual IoT sensors.
 
 This approach shows how using simulations strategically can greatly speed up the development of IoT systems without sacrificing production readiness.
+
+---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)

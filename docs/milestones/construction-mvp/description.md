@@ -68,3 +68,16 @@ By the end of the Construction MVP phase, the project delivers:
 3. **Validation Results**: Performance metrics and detection accuracy reports
 
 ---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)
