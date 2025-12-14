@@ -53,15 +53,18 @@ As a user, I want the system to work offline so that I can use it without intern
 <p>As a stakeholder, I want to see a real use case in the MVP so I can evaluate its effectiveness</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tasks">Tasks<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks" translate="no">​</a></h2>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Integrate backend and frontend</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add a use case to MVP</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test the complete flow</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Integrate backend and frontend</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Add a use case to MVP</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Test the complete flow</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
-<p>Not started</p>
+<p>Backend and frontend working fine together
+Both use cases implemented and tested</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
-<p>Communication between backend and frontend</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>]]></content:encoded>
+<p>Communication between backend and frontend
+Overtaking test case complexity</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sprint-review">Sprint Review<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-3#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<p>Difficult sprint but goals achieved</p>]]></content:encoded>
             <category>Sprint 3</category>
             <category>development(mvp)</category>
         </item>
@@ -86,12 +89,12 @@ As a user I want the system to be quick and responsive so I have a good experien
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Improve map with API's</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Build digital twin system</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Integrate real sensor data</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Integrate real sensor data</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="progress">Progress<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#progress" class="hash-link" aria-label="Direct link to Progress" title="Direct link to Progress" translate="no">​</a></h2>
 <p>Map API design completed
 Digital twin system setup completed
-Real sensor data integration to be started...</p>
+Real sensor data integration completed</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="challenges">Challenges<a href="https://atnog.github.io/pei-automotive-microsite/sprints/sprint-2#challenges" class="hash-link" aria-label="Direct link to Challenges" title="Direct link to Challenges" translate="no">​</a></h2>
 <ol>
 <li class="">API integration complexity</li>
