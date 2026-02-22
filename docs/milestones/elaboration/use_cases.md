@@ -88,10 +88,6 @@ Provides real-time instructions to safely enter or exit highways, such as adjust
 
 ---
 
-## View Alerts
-
-The following use cases describe the various alert systems integrated into the application:
-
 ### UC5. View Hazard Alerts
 
 **Description:**  
