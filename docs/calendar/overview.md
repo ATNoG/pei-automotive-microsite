@@ -13,4 +13,4 @@ sidebar_position: 1
 
 - 2nd Semester: January 2026 - June 2026
     - Construction - 19 January 2026 to 27 May 2026
-    - Transition - 27 June 2026 to 03 June 2026
+    - Transition - 19 May 2026 to 03 June 2026
