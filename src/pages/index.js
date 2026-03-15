@@ -66,16 +66,28 @@ function CollaborationSection() {
                 <div className={styles.collabGrid}>
                     {/* Place your collaboration logos in static/img/ and uncomment the img tags below */}
                     <div className={styles.collabLogo}>
-                        {/* <img src="/pei-automotive-microsite/img/company1.png" alt="Company 1" /> */}
-                        <span>Company 1 Logo</span>
+                        {
+                            <img
+                                src="/pei-automotive-microsite/img/atnog.png"
+                                alt="ATNoG"
+                            />
+                        }
                     </div>
                     <div className={styles.collabLogo}>
-                        {/* <img src="/pei-automotive-microsite/img/company2.png" alt="Company 2" /> */}
-                        <span>Company 2 Logo</span>
+                        {
+                            <img
+                                src="/pei-automotive-microsite/img/it.png"
+                                alt="IT"
+                            />
+                        }
                     </div>
                     <div className={styles.collabLogo}>
-                        {/* <img src="/pei-automotive-microsite/img/company3.png" alt="Company 3" /> */}
-                        <span>Company 3 Logo</span>
+                        {
+                            <img
+                                src="/pei-automotive-microsite/img/ua.png"
+                                alt="UA"
+                            />
+                        }
                     </div>
                 </div>
             </div>
@@ -113,8 +125,12 @@ function AppShowcase() {
                         </p>
                         {/* Place your app screenshot in static/img/ and uncomment the img tag */}
                         <div className={styles.appImageWrapper}>
-                            {/* <img src="/pei-automotive-microsite/img/app-screenshot.png" alt="App Interface" /> */}
-                            <span>App Interface Placeholder</span>
+                            {
+                                <img
+                                    src="/pei-automotive-microsite/img/UI.png"
+                                    alt="App Interface"
+                                />
+                            }
                         </div>
                     </div>
 
@@ -130,8 +146,12 @@ function AppShowcase() {
                         </p>
                         {/* Place your infra diagram in static/img/ and uncomment the img tag */}
                         <div className={styles.appImageWrapper}>
-                            {/* <img src="/pei-automotive-microsite/img/infra-diagram.png" alt="Infrastructure Diagram" /> */}
-                            <span>Infrastructure Diagram Placeholder</span>
+                            {
+                                <img
+                                    src="/pei-automotive-microsite/img/c2e.png"
+                                    alt="Infrastructure Diagram"
+                                />
+                            }
                         </div>
                     </div>
 
@@ -146,8 +166,12 @@ function AppShowcase() {
                         </p>
                         {/* Place your backend architecture image in static/img/ and uncomment the img tag */}
                         <div className={styles.appImageWrapper}>
-                            {/* <img src="/pei-automotive-microsite/img/backend-architecture.png" alt="Backend Architecture" /> */}
-                            <span>Backend Architecture Placeholder</span>
+                            {
+                                <img
+                                    src="/pei-automotive-microsite/img/carbon.png"
+                                    alt="Backend Architecture"
+                                />
+                            }
                         </div>
                     </div>
                 </div>
