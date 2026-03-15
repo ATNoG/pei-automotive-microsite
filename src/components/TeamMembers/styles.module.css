@@ -11,7 +11,7 @@
 .sectionTitle {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--ifm-color-primary);
+    color: var(--ifm-heading-color);
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -56,7 +56,7 @@
 .name {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--ifm-color-primary);
+    color: var(--ifm-heading-color);
     margin: 0 0 0.5rem 0;
 }
 
@@ -72,7 +72,7 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.625rem 1.25rem;
-    background: var(--ifm-color-primary);
+    background: #000;
     color: white;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -82,7 +82,7 @@
 }
 
 .githubLink:hover {
-    background: var(--ifm-color-primary-dark);
+    background: #333;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }

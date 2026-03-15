@@ -23,7 +23,7 @@
     background: url("/img/logo.svg") no-repeat center;
     background-size: contain;
     margin: 0 auto 2rem auto;
-    filter: drop-shadow(0 4px 8px rgba(37, 99, 235, 0.15));
+    filter: drop-shadow(0 4px 15px var(--ifm-color-primary));
 }
 
 .heroTitle {
@@ -116,6 +116,10 @@
     box-shadow: var(--ifm-global-shadow-md);
     border-color: var(--ifm-color-primary-light);
     border-style: solid;
+}
+
+:global([data-theme="dark"]) .collabLogo {
+    background-color: #ffffff;
 }
 
 /* --- App Showcase Section --- */
