@@ -1,83 +1,102 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Minimalist White + Blue Theme
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #075089;
-  --ifm-color-primary-dark: #074a7d;
-  --ifm-color-primary-darker: #06416e;
-  --ifm-color-primary-darkest: #06385e;
-  --ifm-color-primary-light: #095e9e;
-  --ifm-color-primary-lighter: #1575bf;
-  --ifm-color-primary-lightest: #1f88d8;
-  --ifm-color-secondary: #0fbcf9;
-  --ifm-color-success: #10b981;
-  --ifm-color-warning: #f59e0b;
-  --ifm-color-danger: #ef4444;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-spacing-horizontal: 1.5rem;
-  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f5f5f5;
-  --ifm-card-background-color: #ffffff;
-  --ifm-card-border-color: rgba(7, 80, 137, 0.1);
-  --ifm-text-color-base: #4b5563;
-  --ifm-heading-color: #075089;
+    /* Base blue palette */
+    --ifm-color-primary: #2563eb;
+    --ifm-color-primary-dark: #1d4ed8;
+    --ifm-color-primary-darker: #1e40af;
+    --ifm-color-primary-darkest: #1e3a8a;
+    --ifm-color-primary-light: #3b82f6;
+    --ifm-color-primary-lighter: #60a5fa;
+    --ifm-color-primary-lightest: #93c5fd;
+
+    --ifm-color-secondary: #0f172a;
+
+    /* Typography */
+    --ifm-font-family-base:
+        "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    --ifm-heading-color: #0f172a;
+    --ifm-text-color-base: #475569;
+
+    /* Backgrounds & Borders */
+    --ifm-background-color: #ffffff;
+    --ifm-background-surface-color: #f8fafc;
+    --ifm-card-background-color: #ffffff;
+    --ifm-card-border-color: #e2e8f0;
+
+    --ifm-code-font-size: 90%;
+    --docusaurus-highlighted-code-line-bg: rgba(37, 99, 235, 0.1);
+
+    /* Shadows */
+    --ifm-global-shadow-lw: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --ifm-global-shadow-md:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-/* Modern button styles */
+/* Minimalist Buttons */
 .button {
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    box-shadow: none !important;
 }
 
 .button--primary {
-  background: var(--ifm-color-primary);
+    background-color: var(--ifm-color-primary);
+    color: #ffffff;
 }
 
 .button--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(7, 80, 137, 0.3);
+    background-color: var(--ifm-color-primary-dark);
+    transform: translateY(-1px);
 }
 
 .button--secondary {
-  background: var(--ifm-color-secondary);
-  color: white;
+    background-color: #ffffff;
+    color: var(--ifm-color-primary);
+    border-color: #e2e8f0;
 }
 
 .button--secondary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(15, 188, 249, 0.3);
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
 }
 
 /* Dark theme configuration */
-[data-theme='dark'] {
-  --ifm-background-color: #1A447A;
-  --ifm-background-surface-color: #242424;
-  --ifm-navbar-background-color: #14345B;
-  --ifm-footer-background-color: #14345B;
-  --ifm-card-background-color: #1575bf;
-  --ifm-card-border-color: rgba(159, 188, 226, 0.2);
-  --ifm-color-primary: #5db0ef;
-  --ifm-color-primary-dark: #3b9ce6;
-  --ifm-color-primary-darker: #1f88d8;
-  --ifm-color-primary-darkest: #1575bf;
-  --ifm-color-primary-light: #7fc4f7;
-  --ifm-color-primary-lighter: #9fd4f8;
-  --ifm-color-primary-lightest: #c1e4fc;
-  --ifm-color-secondary: #0fbcf9;
-  --ifm-text-color-base: #d4d4d4;
-  --ifm-heading-color: #e0e0e0;
-  --docusaurus-highlighted-code-line-bg: rgba(15, 188, 249, 0.2);
+[data-theme="dark"] {
+    --ifm-background-color: #0f172a;
+    --ifm-background-surface-color: #1e293b;
+    --ifm-navbar-background-color: #0f172a;
+    --ifm-footer-background-color: #0f172a;
+    --ifm-card-background-color: #1e293b;
+    --ifm-card-border-color: #334155;
+
+    --ifm-heading-color: #f8fafc;
+    --ifm-text-color-base: #cbd5e1;
+
+    --ifm-color-primary: #3b82f6;
+    --ifm-color-primary-dark: #2563eb;
+    --ifm-color-primary-light: #60a5fa;
+}
+
+/* Reset default Docusaurus heavy styles for a cleaner look */
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid var(--ifm-card-border-color);
+}
+
+.footer {
+    border-top: 1px solid var(--ifm-card-border-color);
+    background-color: var(--ifm-background-surface-color) !important;
 }
 
 /* Hide year groupings in blog/sprints sidebar */
-[class*='yearGroupHeading'] {
-  display: none;
+[class*="yearGroupHeading"] {
+    display: none;
 }
