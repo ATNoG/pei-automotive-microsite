@@ -4,143 +4,143 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Automotive App',
-  tagline: 'Smarter Roads, Safer Journey',
-  favicon: 'img/favicon.ico',
+    title: "Automotive App",
+    tagline: "Smarter Roads, Safer Journey",
+    favicon: "img/favicon.ico",
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+    // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+    future: {
+        v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    },
 
-  // Set the production url of your site here
-  url: 'https://ATNoG.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/pei-automotive-microsite/',
+    // Set the production url of your site here
+    url: "https://ATNoG.github.io",
+    // Set the /<baseUrl>/ pathname under which your site is served
+    // For GitHub pages deployment, it is often '/<projectName>/'
+    baseUrl: "/pei-automotive-microsite/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ATNoG', // Usually your GitHub org/user name.
-  projectName: 'pei-automotive-microsite', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+    // GitHub pages deployment config.
+    // If you aren't using GitHub pages, you don't need these.
+    organizationName: "ATNoG", // Usually your GitHub org/user name.
+    projectName: "pei-automotive-microsite", // Usually your repo name.
+    deploymentBranch: "gh-pages",
 
-  onBrokenLinks: 'throw',
+    onBrokenLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+    // Even if you don't use internationalization, you can use this field to set
+    // useful metadata like html lang. For example, if your site is Chinese, you
+    // may want to replace "en" with "zh-Hans".
+    i18n: {
+        defaultLocale: "en",
+        locales: ["en"],
+    },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-        },
-        blog: {
-          path: 'sprints',
-          routeBasePath: 'sprints',
-          blogTitle: 'Sprints',
-          blogDescription: 'Project sprints and development progress',
-          blogSidebarTitle: 'All Sprints',
-          blogSidebarCount: 'ALL',
-          postsPerPage: 'ALL',
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
-  ],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'team',
-        path: 'team',
-        routeBasePath: 'team',
-        blogTitle: 'Our Team',
-        blogDescription: 'Meet the team behind Automotive App',
-        blogSidebarTitle: 'Team Members',
-        blogSidebarCount: 'ALL',
-        postsPerPage: 'ALL',
-        showReadingTime: false,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
-        },
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'ignore',
-      },
-    ],
-  ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/AutomotiveAppBanner.png',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
-      navbar: {
-        title: 'Automotive App',
-        logo: {
-          alt: 'Automotive App Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'documentationSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {to: '/sprints', label: 'Sprints', position: 'left'},
-          {to: '/team', label: 'Team', position: 'left'},
-          {
-            href: 'https://github.com/ATNoG/pei-automotive',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'http://ua-pei-automotive.atlassian.net',
-            label: 'Jira',
-            position: 'right',
-          },
+    presets: [
+        [
+            "classic",
+            /** @type {import('@docusaurus/preset-classic').Options} */
+            ({
+                docs: {
+                    sidebarPath: "./sidebars.js",
+                },
+                blog: {
+                    path: "sprints",
+                    routeBasePath: "sprints",
+                    blogTitle: "Sprints",
+                    blogDescription: "Project sprints and development progress",
+                    blogSidebarTitle: "All Sprints",
+                    blogSidebarCount: "ALL",
+                    postsPerPage: "ALL",
+                    showReadingTime: true,
+                    feedOptions: {
+                        type: ["rss", "atom"],
+                        xslt: true,
+                    },
+                    // Useful options to enforce blogging best practices
+                    onInlineTags: "warn",
+                    onInlineAuthors: "warn",
+                    onUntruncatedBlogPosts: "warn",
+                },
+                theme: {
+                    customCss: "./src/css/custom.css",
+                },
+            }),
         ],
-      },
-      footer: {
-        copyright: `Copyright © 2025 Automotive App, Project in Informatics Engineering.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+    ],
+
+    plugins: [
+        [
+            "@docusaurus/plugin-content-blog",
+            {
+                id: "team",
+                path: "team",
+                routeBasePath: "team",
+                blogTitle: "Our Team",
+                blogDescription: "Meet the team behind Automotive App",
+                blogSidebarTitle: "Team Members",
+                blogSidebarCount: "ALL",
+                postsPerPage: "ALL",
+                showReadingTime: false,
+                feedOptions: {
+                    type: ["rss", "atom"],
+                    xslt: true,
+                },
+                onInlineTags: "warn",
+                onInlineAuthors: "warn",
+                onUntruncatedBlogPosts: "ignore",
+            },
+        ],
+    ],
+
+    themeConfig:
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        ({
+            // Replace with your project's social card
+            image: "img/AutomotiveAppBanner.png",
+            colorMode: {
+                respectPrefersColorScheme: true,
+            },
+            navbar: {
+                title: "Automotive App",
+                logo: {
+                    alt: "Automotive App Logo",
+                    src: "img/logo.svg",
+                },
+                items: [
+                    {
+                        type: "docSidebar",
+                        sidebarId: "documentationSidebar",
+                        position: "left",
+                        label: "Documentation",
+                    },
+                    { to: "/sprints", label: "Sprints", position: "left" },
+                    { to: "/team", label: "Team", position: "left" },
+                    {
+                        href: "https://github.com/ATNoG/pei-automotive",
+                        label: "GitHub",
+                        position: "right",
+                    },
+                    {
+                        href: "http://ua-pei-automotive.atlassian.net",
+                        label: "Jira",
+                        position: "right",
+                    },
+                ],
+            },
+            footer: {
+                copyright: `Copyright © ${new Date().getFullYear()} Automotive App, Project in Informatics Engineering.`,
+            },
+            prism: {
+                theme: prismThemes.github,
+                darkTheme: prismThemes.dracula,
+            },
+        }),
 };
 
 export default config;
