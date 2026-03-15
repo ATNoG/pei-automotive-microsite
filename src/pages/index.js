@@ -16,9 +16,8 @@ function HomepageHeader() {
                     {/* The logo image is expected to be located at static/img/logo.svg */}
                     <div className={styles.heroLogo}></div>
                     <Heading as="h1" className={styles.heroTitle}>
-                        PEI{" "}
                         <span className={styles.heroTitleHighlight}>
-                            Automotive
+                            Automotive App
                         </span>
                     </Heading>
                     <p className={styles.heroSubtitle}>
