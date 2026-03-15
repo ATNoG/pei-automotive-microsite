@@ -3,45 +3,12 @@
  * CSS modules are scoped locally.
  */
 
-/* --- Animations --- */
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Scroll-driven animation fallback (if supported) */
-@supports (animation-timeline: view()) {
-    .scrollAnimate {
-        animation: fadeInUp linear both;
-        animation-timeline: view();
-        animation-range: entry 5% cover 30%;
-    }
-}
-
 /* --- Hero Section --- */
 .heroBanner {
     padding: 8rem 2rem 6rem;
     background-color: var(--ifm-background-color);
     text-align: center;
     border-bottom: 1px solid var(--ifm-card-border-color);
-    animation: fadeInDown 0.8s ease-out both;
 }
 
 .heroContent {
@@ -92,7 +59,6 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 /* --- Collaboration Section --- */
@@ -101,8 +67,6 @@
     background-color: var(--ifm-background-surface-color);
     text-align: center;
     border-bottom: 1px solid var(--ifm-card-border-color);
-    /* Basic load animation, overriden by scrollAnimate if supported */
-    animation: fadeInUp 0.8s ease-out 0.3s both;
 }
 
 .collabTitle {
@@ -158,8 +122,6 @@
 .appShowcaseSection {
     padding: 6rem 2rem;
     background-color: var(--ifm-background-color);
-    /* Basic load animation, overriden by scrollAnimate if supported */
-    animation: fadeInUp 0.8s ease-out 0.5s both;
 }
 
 .appShowcaseContainer {

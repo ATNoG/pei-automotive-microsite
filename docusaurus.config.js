@@ -49,52 +49,11 @@ const config = {
                 docs: {
                     sidebarPath: "./sidebars.js",
                 },
-                blog: {
-                    path: "sprints",
-                    routeBasePath: "sprints",
-                    blogTitle: "Sprints",
-                    blogDescription: "Project sprints and development progress",
-                    blogSidebarTitle: "All Sprints",
-                    blogSidebarCount: "ALL",
-                    postsPerPage: "ALL",
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ["rss", "atom"],
-                        xslt: true,
-                    },
-                    // Useful options to enforce blogging best practices
-                    onInlineTags: "warn",
-                    onInlineAuthors: "warn",
-                    onUntruncatedBlogPosts: "warn",
-                },
+                blog: false,
                 theme: {
                     customCss: "./src/css/custom.css",
                 },
             }),
-        ],
-    ],
-
-    plugins: [
-        [
-            "@docusaurus/plugin-content-blog",
-            {
-                id: "team",
-                path: "team",
-                routeBasePath: "team",
-                blogTitle: "Our Team",
-                blogDescription: "Meet the team behind Automotive App",
-                blogSidebarTitle: "Team Members",
-                blogSidebarCount: "ALL",
-                postsPerPage: "ALL",
-                showReadingTime: false,
-                feedOptions: {
-                    type: ["rss", "atom"],
-                    xslt: true,
-                },
-                onInlineTags: "warn",
-                onInlineAuthors: "warn",
-                onUntruncatedBlogPosts: "ignore",
-            },
         ],
     ],
 
@@ -118,16 +77,20 @@ const config = {
                         position: "left",
                         label: "Documentation",
                     },
-                    { to: "/sprints", label: "Sprints", position: "left" },
+                    {
+                        to: "/docs/category/sprints",
+                        label: "Sprints",
+                        position: "left",
+                    },
                     { to: "/team", label: "Team", position: "left" },
                     {
                         href: "https://github.com/ATNoG/pei-automotive",
-                        label: "GitHub",
+                        label: "🐙 GitHub",
                         position: "right",
                     },
                     {
                         href: "http://ua-pei-automotive.atlassian.net",
-                        label: "Jira",
+                        label: "📋 Jira",
                         position: "right",
                     },
                 ],

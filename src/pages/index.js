@@ -26,8 +26,23 @@ function HomepageHeader() {
                     <p className={styles.heroDescription}>
                         Leveraging real-life sensor infrastructure in Aveiro to
                         provide real-time intelligent transportation alerts for
-                        safer, smarter driving. A contribution to the DT4MOB
-                        project within the ATNoG research group.
+                        safer, smarter driving. A contribution to the{" "}
+                        <a
+                            href="https://www.it.pt/Projects/Index/4934"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            DT4MOB
+                        </a>{" "}
+                        project within the{" "}
+                        <a
+                            href="https://www.it.pt/Groups/Index/19"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            ATNoG
+                        </a>{" "}
+                        research group.
                     </p>
                     <div className={styles.buttons}>
                         <Link
@@ -51,35 +66,43 @@ function HomepageHeader() {
 
 function CollaborationSection() {
     return (
-        <section className={clsx(styles.collabSection, styles.scrollAnimate)}>
+        <section className={styles.collabSection}>
             <div className="container">
                 <h2 className={styles.collabTitle}>In Collaboration With</h2>
                 <div className={styles.collabGrid}>
-                    {/* Place your collaboration logos in static/img/ and uncomment the img tags below */}
-                    <div className={styles.collabLogo}>
-                        {
-                            <img
-                                src="/pei-automotive-microsite/img/atnog.png"
-                                alt="ATNoG"
-                            />
-                        }
-                    </div>
-                    <div className={styles.collabLogo}>
-                        {
-                            <img
-                                src="/pei-automotive-microsite/img/it.png"
-                                alt="IT"
-                            />
-                        }
-                    </div>
-                    <div className={styles.collabLogo}>
-                        {
-                            <img
-                                src="/pei-automotive-microsite/img/ua.png"
-                                alt="UA"
-                            />
-                        }
-                    </div>
+                    <a
+                        href="https://www.it.pt/Groups/Index/19"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.collabLogo}
+                    >
+                        <img
+                            src="/pei-automotive-microsite/img/atnog.png"
+                            alt="ATNoG"
+                        />
+                    </a>
+                    <a
+                        href="https://www.it.pt/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.collabLogo}
+                    >
+                        <img
+                            src="/pei-automotive-microsite/img/it.png"
+                            alt="IT"
+                        />
+                    </a>
+                    <a
+                        href="https://www.ua.pt/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.collabLogo}
+                    >
+                        <img
+                            src="/pei-automotive-microsite/img/ua.png"
+                            alt="UA"
+                        />
+                    </a>
                 </div>
             </div>
         </section>
@@ -88,9 +111,7 @@ function CollaborationSection() {
 
 function AppShowcase() {
     return (
-        <section
-            className={clsx(styles.appShowcaseSection, styles.scrollAnimate)}
-        >
+        <section className={styles.appShowcaseSection}>
             <div className={styles.appShowcaseContainer}>
                 <div className={styles.appShowcaseHeader}>
                     <h2 className={styles.appShowcaseTitle}>
