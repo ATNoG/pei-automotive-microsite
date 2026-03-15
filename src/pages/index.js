@@ -42,14 +42,6 @@ function HomepageHeader() {
                         >
                             Documentation
                         </Link>
-                        <a
-                            className="button button--secondary button--lg"
-                            href="https://github.com/ATNoG/pei-automotive-frontend"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            GitHub Repo
-                        </a>
                     </div>
                 </div>
             </div>

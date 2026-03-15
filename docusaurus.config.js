@@ -107,7 +107,6 @@ const config = {
                 respectPrefersColorScheme: true,
             },
             navbar: {
-                title: "Automotive App",
                 logo: {
                     alt: "Automotive App Logo",
                     src: "img/logo.svg",
