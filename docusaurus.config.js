@@ -77,11 +77,6 @@ const config = {
                         position: "left",
                         label: "Documentation",
                     },
-                    {
-                        to: "/docs/category/sprints",
-                        label: "Sprints",
-                        position: "left",
-                    },
                     { to: "/team", label: "Team", position: "left" },
                     {
                         href: "https://github.com/ATNoG/pei-automotive",
