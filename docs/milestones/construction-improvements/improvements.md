@@ -22,10 +22,6 @@ These use cases were developed:
 
 **Important Note:** Navigation related features on these use cases were still not developed, as they have a lower priority for this project, and they will recieve more focus later on.
 
-## System Improvements
-
-The visual alerts were complemented with audio counterparts and a local cache was implemented to ensure the system remains operational during temporal network disruptions.
-
 ## Real data Implementation
 
 Work in progress
