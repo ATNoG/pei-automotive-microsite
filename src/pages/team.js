@@ -1,13 +1,15 @@
-import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
-import TeamPage from '@site/src/components/TeamMembers';
+import Layout from "@theme/Layout";
+import TeamPage from "@site/src/components/TeamMembers";
 
 export default function Team() {
-  return (
-    <Layout>
-      <div>
-        <TeamPage />
-      </div>
-    </Layout>
-  );
+    return (
+        <Layout
+            title="Team"
+            description="Meet the team behind the Automotive App"
+        >
+            <div>
+                <TeamPage />
+            </div>
+        </Layout>
+    );
 }
