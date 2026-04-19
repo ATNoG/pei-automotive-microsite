@@ -54,3 +54,18 @@ Since the application falls under the "Navigation" and "Driver Assistance" categ
 - **Expected Performance (EP-2):** When relaunched from the home screen, the app must restore state as closely as possible to the previous state.
 - **Payments (PA-1):** If any purchases are enabled, flows must be simple (e.g., existing payment methods). Setup of new payment methods, multiple item selection, or subscriptions are strictly prohibited while driving. 
 - **Deep Linking (DL-2):** The app needs to support deep links so it integrates naturally with the rest of the car's native software ecosystem.
+
+---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)

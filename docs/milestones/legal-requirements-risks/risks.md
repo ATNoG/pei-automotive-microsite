@@ -33,3 +33,18 @@ title: Risks Assessment
 ### User Adoption vs. Trust
 * **The Risk:** As we saw in our competitor analysis, Waze and TomTom are established giants. If our app gives too many false alarms or distracts the driver, users will abandon it.
 * **The Mitigation:** Implement a robust alert system that minimizes false positives and ensures that alerts are only triggered when necessary. Have key features (like overtaking alerts) prioritized and tested extensively to ensure reliability as this is the core value proposition of the app.
+
+---
+
+**Tutors:**  
+- Rafael Direito (rafael.neves.direito@ua.pt)  
+- Diogo Gomes (dgomes@ua.pt)  
+
+**Group:**
+- Diogo Nascimento (dca.nascimento5@ua.pt)
+- Duarte Branco (duartebranco@ua.pt)
+- Eduardo Romano (eduardo.romano@ua.pt)
+- Filipe Viseu (filipeviseu@ua.pt)
+- Samuel Vinhas (samuelmvinhas@ua.pt)
+
+**Institution:** Telecommunications Institute of Aveiro (ITAv)
