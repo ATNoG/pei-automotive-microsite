@@ -10,6 +10,10 @@ title: Risks Assessment
 * **Risk:** If latency spikes beyond your 2-second requirement, alerts (like overtaking) become dangerous rather than helpful
 * **Mitigation:** System that prioritizes critical alerts (e.g., overtaking) and degrades gracefully for less critical ones (e.g., weather updates). Check timestamps to ensure alerts are timely
 
+### Stale Data Processing
+* **Risk:** Even if message processing latency is low, the data within the message could be outdated (e.g., due to sensor delays or network drops). Presenting information that is "old" could cause the driver to react to events that are no longer there
+* **Mitigation:** Ensure all information in the digital twins includes a timestamp. The processing engine will enforce a Time-To-Live (TTL) threshold; if the timestamp is older than the threshold (e.g., 5-10 seconds), the data is discarded to maintain a fail-silent state
+
 ### Network Connectivity Loss
 * **Risk:** Cars drive through tunnels and dead zones. If the app loses connection to the Mosquitto broker, it fails.
 * **Mitigation:** Local cache for map and alert data to ensure offline functionality and graceful degradation (e.g., showing a "Reconnecting... Data may be outdated" UI warning)
@@ -18,9 +22,16 @@ title: Risks Assessment
 * **Risk:** Our current tests use clean, simulated data. Real-world ITAv sensors and vehicle GPS will have noise, "ghost" vehicles, or signal jumping.
 * **Mitigation:** Algorithms or proximity thresholds to prevent false-positive alerts
 
+### Cybersecurity Threats (Man-in-the-Middle / Injection)
+* **Risk:** An actor intercepts the network or executes an injection attack to spoof hazard or overtaking data, triggering fake events that could cause panic or accidents
+* **Mitigation:** Make all communications rely on strict encryption (e.g., TLS)
 ---
 
 ## 2. Business & Project Risks Assessment
+
+### Driver Distraction
+* **Risk:** The application could draw the driver's cognitive or visual attention away from the road, leading to accidents and legal liability
+* **Mitigation:** Implement UX restrictions such as disabling keyboards, enforcing large touch targets (64x64 dp), locking complex menus when the vehicle exceeds 5 km/h and many other rules available on [Android Automotive Driver Distraction Guidelines](https://source.android.com/docs/automotive/driver_distraction/guidelines)
 
 ### Third-Party Dependencies
 * **The Risk:** MapTiler and OpenWeatherMap have free tiers, but if the app scales or hits rate limits during testing, the APIs will block our requests
