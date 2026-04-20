@@ -4,17 +4,41 @@ sidebar_position: 4
 
 # Legal Requirements for Automotive Apps
 
-## 1. Introduction to Automotive Safety Compliance
+## 1. Automotive Safety Standards & Legal Liability
 
-Building an app for a car isn't just about writing good code or protecting user data; it's about physical safety. When a user is behind the wheel, a distracting interface isn't just annoying, it's dangerous. To keep drivers focused and to mitigate our own liability, our app strictly follows Google's [Android Car App Quality Guidelines](https://developer.android.com/docs/quality-guidelines/car-app-quality).
-Following these rules isn't optional. If we don't meet these standards, our app won't make it onto the Play Store, and worse, it could contribute to an accident.
+Building software for a moving vehicle isn't like building a standard mobile app. The stakes are much higher. If our app feeds the driver delayed or incorrect information and causes an accident, the legal liability falls on us, the developers, and the university. To protect the drivers and our institution, we built the app around automotive legal frameworks:
+
+### 1.1 Functional Safety & ASIL (ISO 26262)
+In the automotive industry, software must comply with ISO 26262, which assigns an **Automotive Safety Integrity Level (ASIL)** to vehicle systems, ranging from A (lowest risk) to D (highest risk, like brakes or steering). 
+Because our app provides informational warnings but does not physically actuate the car's steering or brakes, it aims for a lower ASIL classification. However, to legally justify this lower risk profile, we must guarantee that the app cannot actively cause a crash. 
+* **How we achieve it:** We designed the app with a **fail-silent** architecture. In simple words, if the app detects a network drop, a data anomaly, or an internal error, it legally protects the driver by choosing to not show the alert system at all rather than guess. It is much safer to suppress a warning than to display a false one that could cause a fatal maneuver.
+
+### 1.2 Legal Liability & The Driver's Role
+A critical legal question in automotive software is: *Who is responsible if the app is wrong?*
+Legally, our application is classified as an informational Advanced Driver Assistance System ([ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_system) Level 0).
+We mitigate our liability by explicitly stating in our Terms of Use that the app provides "No Reliance on Maneuver Coordination." This ensures that, under the law, the ultimate responsibility for driving safely and checking blind spots remains 100% with the human driver, even if our software fails to deliver an alert.
+
+### 1.3 Cybersecurity Legal Mandates (UNECE R155)
+Connected cars are massive targets for hackers. Under the new **UNECE Regulation No. 155**, automotive cybersecurity is no longer just a best practice; it is a legal requirement for vehicles operating in the EU. 
+If someone manages to pull off a Man-in-the-Middle (MitM) or data injection attack, they could spoof fake hazards. Legally, we are responsible for ensuring our data hasn't been tampered with. 
+* **How we achieve it:** To lock this down, every piece of communication between the vehicle and the backend is strictly encrypted. We only process authenticated data straight from the ITAv network - if we can't verify where the data came from, we drop it.
+
+### 1.4 Data Sovereignty (The EU Data Act)
+Because we are an IoT app running in Europe, we have to play by the rules of the recently adopted **European Data Act**. This law is all about making sure users control who sees their connected-device data. We solve this by keeping our digital twin infrastructure entirely self-hosted and anonymized. We aren't shipping user location data off to unauthorized third parties; it stays secure, private, and under our control.
+
+### 1.5 Intelligent Transport Systems (ITS) Directive
+As a final legal consideration, European apps that coordinate vehicle data must align with the **EU ITS Directive (2010/40/EU)**, which promotes the interoperable deployment of intelligent transport systems. By utilizing open standards like Eclipse Ditto for our digital twins, we ensure our app legally complies with the EU's push for standardized, non-proprietary communication between vehicles and smart city infrastructure.
+
+## 2. Platform Compliance: Android Car App Quality
+
+Beyond structural legal liability, the app must also comply with the physical safety and distraction standards mandated by the platform. We strictly follow Google's [Android Car App Quality Guidelines](https://developer.android.com/docs/quality-guidelines/car-app-quality). Failure to meet these standards can lead to app removal and increased legal liability.
 
 To help frame our goals, Google categorizes app quality into three tiers:
 - **Tier 3 - Car ready:** Compatible with large screens and usable while parked.
 - **Tier 2 - Car optimized:** Provides a great experience on the car's center stack display across driving or parked modes.
 - **Tier 1 - Car differentiated:** Adapts to various car hardware screens (center console, instrument cluster, etc.) seamlessly.
 
-## 2. Core Safety & Distraction Requirements
+## 3. Core Safety & Distraction Requirements
 
 To make sure our app is a helpful co-pilot rather than a dangerous distraction, we have to lock down certain behaviors the moment the car goes into gear:
 
@@ -25,7 +49,7 @@ To make sure our app is a helpful co-pilot rather than a dangerous distraction, 
 - **No Animated Intrusions (SA-1) & No Scrolling Text (ST-1):** The interface cannot have distracting animations, looping videos, or auto-scrolling text while the car is moving. Our hazard and speeding alerts need to be clean, static, high-contrast overlays.
 - **Visual Information on Phone (VI-1):** If the user must go to the phone screen (e.g., for a permission request), the app must display a message instructing the user to only look at their phone screen when it’s safe to do so.
 
-## 3. UI/UX Mandatory Standards
+## 4. UI/UX Mandatory Standards
 
 Google enforces strict ergonomic standards for Car OS apps to ensure drivers do not struggle to use the interface:
 
@@ -35,7 +59,7 @@ Google enforces strict ergonomic standards for Car OS apps to ensure drivers do 
 - **Image Usage (IU-1):** No images are allowed on screen except to aid in driving decision-making (e.g., lane/junction guidance for navigation) or standard consumption context (like background map artwork).
 - **Ads Restriction (AD-1 & NA-1):** The app must not display text-based advertising (other than naming), nor present advertisements through notifications.
 
-## 4. Specific Navigation & Alert Compliance
+## 5. Specific Navigation & Alert Compliance
 
 Since the application falls under the "Navigation" and "Driver Assistance" categories, it must meet specific functional expectations:
 
@@ -49,7 +73,7 @@ Since the application falls under the "Navigation" and "Driver Assistance" categ
   - Must provide a **"test drive"** mode that simulates driving (NF-7).
 - **Irrelevant Notifications (IN-1):** Notifications must only be displayed when strictly relevant to the driver's immediate needs (e.g., a hazard ahead, not a marketing update).
 
-## 5. Additional Compliance & Edge Cases
+## 6. Additional Compliance & Edge Cases
 
 - **Expected Performance (EP-2):** When relaunched from the home screen, the app must restore state as closely as possible to the previous state.
 - **Payments (PA-1):** If any purchases are enabled, flows must be simple (e.g., existing payment methods). Setup of new payment methods, multiple item selection, or subscriptions are strictly prohibited while driving. 
