@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+title: Legal Requirements
+sidebar_position: 2
 ---
 
 # Legal Requirements for Automotive Apps

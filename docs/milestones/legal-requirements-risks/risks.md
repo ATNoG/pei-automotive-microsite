@@ -1,5 +1,6 @@
 ---
 title: Risks Assessment
+sidebar_position: 3
 ---
 
 # Risks Assessment
