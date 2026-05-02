@@ -20,7 +20,7 @@ Moving beyond simply listing factors, TOWS matrix combines our internal traits w
 
 ## WT Strategy (Weaknesses + Threats)
 
-- **Action**: To protect against our **Infrastructure Dependence (W)** and **API Pricing Volatility (T)**, we will need a robust offline caching and fallback mechanisms. If **ITAv** sensors drop or MapTiler blocks our API key, the app must gracefully degrade into a standard, cached offline map rather than crashing, ensuring the driver is never left "blind".
+- **Action**: To protect against our **Area-Constrained Operation (W)** and **API Pricing Volatility (T)**, we will need a robust offline caching and fallback mechanisms. If **ITAv** sensors drop or MapTiler blocks our API key, the app must gracefully degrade into a standard, cached offline map rather than crashing, ensuring the driver is never left "blind".
 
 ---
 
