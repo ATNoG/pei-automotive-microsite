@@ -45,18 +45,39 @@ function HomepageHeader() {
                         research group.
                     </p>
                     <div className={styles.buttons}>
-                        <Link
-                            className="button button--primary button--lg"
-                            to="/docs/category/milestones"
-                        >
-                            View Docs
-                        </Link>
-                        <Link
-                            className="button button--secondary button--lg"
-                            to="/team"
-                        >
-                            Team
-                        </Link>
+                        <div className={styles.primaryButtons}>
+                            <Link
+                                className="button button--primary button--lg"
+                                to="/docs/category/milestones"
+                            >
+                                View Docs
+                            </Link>
+                            <Link
+                                className="button button--secondary button--lg"
+                                to="/team"
+                            >
+                                Team
+                            </Link>
+                        </div>
+
+                        <div className={styles.secondaryButtons}>
+                            <a
+                                className="button button--primary button--lg"
+                                href="https://www.youtube.com/watch?v=Dvd4UiqJGhc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Demo Video
+                            </a>
+                            <a
+                                className="button button--secondary button--lg"
+                                href="https://www.youtube.com/watch?v=sqD1bz4u7jk"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Promo Video
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

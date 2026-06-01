@@ -56,9 +56,39 @@
 
 .buttons {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.75rem;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.primaryButtons {
+    display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondaryButtons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroBanner :global(.button) {
+    background: #ffffff;
+    color: var(--ifm-color-primary);
+    border: 1px solid var(--ifm-color-primary);
+    box-shadow: none;
+}
+
+.heroBanner :global(.button:hover) {
+    background: #f5f7fb;
+    color: var(--ifm-color-primary);
+    transform: translateY(-2px);
 }
 
 /* --- Collaboration Section --- */
@@ -255,6 +285,7 @@
     .buttons {
         flex-direction: column;
         gap: 0.75rem;
+        width: 100%;
     }
     .buttons a {
         width: 100%;
