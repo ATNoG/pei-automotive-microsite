@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Future Work
 
-Our Automotive App reached a mature, demonstrable state, but the project also opened clear paths for what comes next. Our main aspiration is to take the app from a validated prototype to a product that real drivers can install.
+Our project, Automotive App, reached a mature, demonstrable state, but the project also opened clear paths for what comes next. Our main aspiration is to take the app from a validated prototype to a product that real drivers can install.
 
 ## Publishing on Google Play
 
