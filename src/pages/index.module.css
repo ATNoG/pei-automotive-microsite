@@ -88,7 +88,14 @@
 .heroBanner :global(.button:hover) {
     background: #f5f7fb;
     color: var(--ifm-color-primary);
-    transform: translateY(-2px);
+}
+
+:global([data-theme="dark"]) .heroBanner :global(.button) {
+    background: var(--ifm-background-surface-color);
+}
+
+:global([data-theme="dark"]) .heroBanner :global(.button:hover) {
+    background: var(--ifm-background-color);
 }
 
 /* --- Collaboration Section --- */
@@ -147,7 +154,7 @@
 }
 
 :global([data-theme="dark"]) .collabLogo {
-    background-color: #ffffff;
+    background-color: var(--ifm-background-surface-color);
 }
 
 /* --- App Showcase Section --- */
