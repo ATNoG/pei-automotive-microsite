@@ -198,14 +198,6 @@
     box-shadow: var(--ifm-global-shadow-lw);
     display: flex;
     flex-direction: column;
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-}
-
-.appCard:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--ifm-global-shadow-md);
 }
 
 .appCardTitle {
@@ -224,17 +216,9 @@
 }
 
 .appImageWrapper {
-    background-color: var(--ifm-background-surface-color);
-    border: 1px solid var(--ifm-card-border-color);
     border-radius: 6px;
     overflow: hidden;
     aspect-ratio: 16/9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--ifm-text-color-base);
-    font-size: 0.875rem;
-    transition: opacity 0.3s ease;
 }
 
 .appImageWrapper img {

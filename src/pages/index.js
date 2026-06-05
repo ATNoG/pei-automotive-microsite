@@ -201,7 +201,7 @@ function AppShowcase() {
                         <div className={styles.appImageWrapper}>
                             {
                                 <img
-                                    src="/pei-automotive-microsite/img/carbon.png"
+                                    src="/pei-automotive-microsite/img/services.png"
                                     alt="Backend Architecture"
                                 />
                             }
