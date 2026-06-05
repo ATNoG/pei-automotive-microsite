@@ -71,20 +71,19 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.625rem 1.25rem;
-    background: #000;
-    color: white;
+    padding: 0.625rem 1rem;
+    color: #000;
+    background: white;
     text-decoration: none;
     border-radius: 0.5rem;
+    border: 1px solid var(--ifm-card-border-color);
     font-weight: 600;
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
 
 .githubLink:hover {
-    background: #333;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-color: black;
 }
 
 .githubIcon {
