@@ -98,7 +98,7 @@ function CollaborationSection() {
                         className={styles.collabLogo}
                     >
                         <img
-                            src="/pei-automotive-microsite/img/atnog.png"
+                            src="/pei-automotive-microsite/img/collab/atnog.png"
                             alt="ATNoG"
                         />
                     </a>
@@ -109,7 +109,7 @@ function CollaborationSection() {
                         className={styles.collabLogo}
                     >
                         <img
-                            src="/pei-automotive-microsite/img/it.png"
+                            src="/pei-automotive-microsite/img/collab/it.png"
                             alt="IT"
                         />
                     </a>
@@ -120,7 +120,7 @@ function CollaborationSection() {
                         className={styles.collabLogo}
                     >
                         <img
-                            src="/pei-automotive-microsite/img/ua.png"
+                            src="/pei-automotive-microsite/img/collab/ua.png"
                             alt="UA"
                         />
                     </a>

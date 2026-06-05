@@ -121,7 +121,6 @@
 .collabLogo {
     height: 80px;
     width: 200px;
-    background-color: var(--ifm-background-color);
     border: 1px dashed var(--ifm-card-border-color);
     border-radius: 8px;
     display: flex;
@@ -142,7 +141,6 @@
 }
 
 .collabLogo:hover {
-    transform: translateY(-4px);
     box-shadow: var(--ifm-global-shadow-md);
     border-color: var(--ifm-color-primary-light);
     border-style: solid;
