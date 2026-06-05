@@ -72,8 +72,8 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.625rem 1rem;
-    color: #000;
-    background: white;
+    color: var(--ifm-text-color-base);
+    background: var(--ifm-card-background-color);
     text-decoration: none;
     border-radius: 0.5rem;
     border: 1px solid var(--ifm-card-border-color);
@@ -83,7 +83,7 @@
 }
 
 .githubLink:hover {
-    border-color: black;
+    border-color: var(--ifm-color-primary-light);
 }
 
 .githubIcon {
