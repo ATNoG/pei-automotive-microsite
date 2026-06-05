@@ -3,15 +3,19 @@ import styles from "./styles.module.css";
 const videos = [
     {
         title: "Demo Video",
+        description:
+            "A walkthrough of the Automotive App running on Android Automotive OS, showcasing two use cases scenarios in real-time.",
         src: "/pei-automotive-microsite/video/AutomotiveAppDemo.mp4",
     },
     {
         title: "Promotional Video",
+        description:
+            "An overview of the project's vision, leveraging Aveiro's real-life sensor infrastructure for safer, smarter driving.",
         src: "/pei-automotive-microsite/video/AutomotiveAppPromotional.mp4",
     },
 ];
 
-function VideoCard({ title, src }) {
+function VideoCard({ title, description, src }) {
     return (
         <div className={styles.card}>
             <div className={styles.videoWrapper}>
@@ -24,6 +28,7 @@ function VideoCard({ title, src }) {
                 </video>
             </div>
             <h3 className={styles.title}>{title}</h3>
+            <p className={styles.description}>{description}</p>
         </div>
     );
 }

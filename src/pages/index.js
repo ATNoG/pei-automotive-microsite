@@ -50,19 +50,19 @@ function HomepageHeader() {
                                 className="button button--primary button--lg"
                                 to="/docs/category/milestones"
                             >
-                                View Docs
+                                📄 View Docs
                             </Link>
                             <Link
                                 className="button button--secondary button--lg"
                                 to="/team"
                             >
-                                Team
+                                👥 Team
                             </Link>
                             <Link
                                 className="button button--secondary button--lg"
                                 to="/videos"
                             >
-                                Videos
+                                🎬 Videos
                             </Link>
                         </div>
                     </div>
