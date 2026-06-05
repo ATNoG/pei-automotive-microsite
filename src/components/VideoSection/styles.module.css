@@ -1,0 +1,92 @@
+.container {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ifm-heading-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 520px);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    background: var(--ifm-card-background-color);
+    border: 1px solid var(--ifm-card-border-color);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 520px;
+    max-width: none;
+}
+
+.videoWrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--ifm-heading-color);
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+    .container {
+        padding: 3rem 1.5rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .cardsGrid {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cardsGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}

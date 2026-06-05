@@ -71,13 +71,6 @@
     justify-content: center;
 }
 
-.secondaryButtons {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-}
-
 .heroBanner :global(.button) {
     background: #ffffff;
     color: var(--ifm-color-primary);

@@ -58,25 +58,12 @@ function HomepageHeader() {
                             >
                                 Team
                             </Link>
-                        </div>
-
-                        <div className={styles.secondaryButtons}>
-                            <a
-                                className="button button--primary button--lg"
-                                href="https://www.youtube.com/watch?v=Dvd4UiqJGhc"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Demo Video
-                            </a>
-                            <a
+                            <Link
                                 className="button button--secondary button--lg"
-                                href="https://www.youtube.com/watch?v=sqD1bz4u7jk"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                to="/videos"
                             >
-                                Promo Video
-                            </a>
+                                Videos
+                            </Link>
                         </div>
                     </div>
                 </div>
